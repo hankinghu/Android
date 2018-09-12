@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="rad_living_anim_duration">135</integer>
+    <integer name="double_click_animation_item_duration">50</integer>
+    <integer name="play_complete_like_guide_item_duration">50</integer>
+    <integer name="user_center_member_aciont_duration">45</integer>
+    <integer name="user_center_member_aciont_duration1">30</integer>
+    <integer name="follow_btn_animation_interval">50</integer>
+</resources>

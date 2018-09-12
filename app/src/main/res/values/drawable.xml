@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <drawable name="white">#FFFFFF</drawable>
+	<drawable name="list_item_bg_pressed">#F7F7F7</drawable>
+	<drawable name="viewpage_space_drawable">#efeff0</drawable>
+	<drawable name="short_video_clickable_bg">#F8F8F9</drawable>
+</resources>

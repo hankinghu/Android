@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 不要单独用这个xml，用TitleBar，它封装了动态设置标题宽度等逻辑 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="52dip"
+    android:background="#e6ffffff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <!-- 左边区域，两种控件2选1，默认是图片 -->
+
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        android:padding="11dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/commonui_nav_arrow_back_selector" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="4dp"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:text="@string/app_name" />
+
+</RelativeLayout>
